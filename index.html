@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ultimate JavaScript Playground</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Fun JavaScript Playground</h1>
+  <section id="button_section">
+    <div>
+      <h3>Click the button to see the button's modification</h3>
+    </div>
+  <button id="magicButton">Click Me!</button>
+  </section>
+<section id="images">
+    <div id="gallery">
+        <img src="images/d-1.png" alt="Image 1">
+        <img src="images/d-2.png" alt="Image 2">
+        <img src="images/d-3.png" alt="Image 3">
+      </div>
+</section>
+<section class="secret_section">
+  <div id="secretArea">
+    <p>Double-Click Or Long press to see the margic</p>
+    <h3>Tap or Double-Click Me</h3>
+  </div>
+</section>
+
+<section id="tabs_section">
+  <h3>Click the buttons to display their meanings</h3>
+    <div class="tabs">
+      <button class="tablink" data-tab="tab1">JavaScript</button>
+      <button class="tablink" data-tab="tab2">Java</button>
+      <div id="tab1" class="tabcontent">JavaScript is a high-level, interpreted programming language that allows you to make web pages interactive and dynamic.</div>
+      <div id="tab2" class="tabcontent">Java is a high-level, object-oriented programming language that is designed to be platform-independent, meaning that code written in Java can run on any device that has a Java Virtual Machine (JVM).</div>
+    </div>
+</section>  
+
+  <section id="form_section">
+    <div class="form_section">
+        <form id="myForm" action="form data">
+            <input type="text" id="username" placeholder="Username" required><br>
+            <input type="email" id="email" placeholder="Email" required><br>
+            <input type="password" id="password" placeholder="Password (min 8 chars)" required><br>
+            <button type="submit">Submit</button>
+          </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

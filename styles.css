@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: black;
+  }
+
+  h1{
+    text-align: center;
+    color:#ffff;
+  }
+  
+  #gallery img {
+    width: 150px;
+    margin: 5px;
+    cursor: pointer;
+    padding: 40px;
+    transition: transform 0.3s;
+  }
+
+  #images{
+    background-color: darkolivegreen;
+  }
+  
+  #gallery img:hover {
+    transform: scale(1.1);
+  }
+
+  .secret_section{
+    background-color:#6B9071;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #secretArea {
+    width: 400px;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+   
+  }
+
+  .tabs{
+    cursor: pointer;
+  }
+  
+  .tabcontent {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+   
+  }
+
+  #tabs_section{
+    background-color:#6B9071;
+  }
+  
+  .active {
+    display: block;
+  }
+
+  #button_section{
+    background-color:#AEC3B0;
+   
+  }
+  
+  button {
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #form_section{
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    min-height: 50vh;
+
+  }
+
+  .form_section{
+    background-color: #6B9071;
+    width: 50%;
+    padding: 12px 14px;
+    margin: 12px 0;
+    border: 1px solid #add;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+
+  #myForm input{
+    outline: none;
+    padding: 12px;
+    border-radius: 8px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #myForm button {
+    width: 100%;
+    padding: 12px;
+    background-color: lightskyblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #myForm button:hover {
+    background-color: #0056b3;
+  }
+
+
